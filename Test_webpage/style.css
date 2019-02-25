@@ -1,0 +1,54 @@
+.button_nav {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(95, 0, 220);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button_nav:hover {
+    background-color: rgba(95, 0, 220, 0.568);
+}
+
+.button_nav:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.navbar {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    text-align: justify;
+}
+.ford {
+    text-align: center;
+    margin: -70px;
+}
+.naslov_tablice {
+    text-align: center;
+}
+table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+td {
+    border: 1px solid #333;
+    text-align: left;
+}
